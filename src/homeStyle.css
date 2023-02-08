@@ -12,6 +12,10 @@ body{
     height:100%;
 }
 
+h1{
+   color:rgb(255, 255, 255);
+}
+
 .container{
    width: 100%;
    min-height: 10vh;
@@ -147,10 +151,9 @@ a{
 .container2{
    justify-content: center;
    display: flex;
-   height: 100vh;
+   height: 110vh;
    padding:20px;
    background-color: #222;
-   overflow-y:auto;
 }
 
 .container3{

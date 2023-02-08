@@ -117,6 +117,9 @@ $txt = "";
                   while ($row = $imgData->fetch_assoc()) {
                      echo '<img src="'.$row['image'].'"/>';
                      $txt = $row['imgText'];
+                     if($txt==""){
+                        echo "<br><h1>No Text Identifiable</h1>";
+                     }
                      echo '<div id="tts-player" class="control is-pulled-left is-hidden"></div><br>';
                      ?>
                      
